@@ -1,3 +1,0 @@
-# 개발자 -> (패키지, 파일 등) -> 사용자
-
-# .gitignore 적용 전 이미 파일을 add 했다면 git rm --cached *
