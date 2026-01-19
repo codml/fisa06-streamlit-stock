@@ -1,7 +1,7 @@
 # 표준 라이브러리
 import datetime
 from io import BytesIO
-import os
+
 # 서드파티 라이브러리
 import datetime
 from io import BytesIO
@@ -11,6 +11,10 @@ import FinanceDataReader as fdr
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 my_name = os.getenv("MY_NAME")
 st.header(my_name)
 def get_krx_company_list() -> pd.DataFrame:
