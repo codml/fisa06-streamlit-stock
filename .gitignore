@@ -1,4 +1,5 @@
 st/
+.env
 *.txt
 상장법인목록.xlsx
 !requirements.txt
